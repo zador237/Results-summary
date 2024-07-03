@@ -31,6 +31,9 @@
       text-align: center;
       padding: 15px 40px;
       border-radius: 20px;
+      display: flex;
+        flex-direction: column;
+        align-items: center;
     }
    
     .results h3{
@@ -63,7 +66,7 @@
       border-radius: 50%;
       height: 180px;
       width: 180px;
-      margin: 0 25px 10px;
+      margin-bottom: 10px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -154,9 +157,7 @@
         flex-direction: column;
   
       }
-      .circle {
-       margin: 0 30%;
-      }
+    
       .summary{
         position: relative;
         top:-15px;
@@ -166,12 +167,17 @@
       }
       .results{
         width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
       .summary > *{
       height: 100%;
       width:auto;
       }
      }
+
+     @media (max-width:500px){}
 
 
 
